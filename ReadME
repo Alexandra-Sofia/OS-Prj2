@@ -1,0 +1,19 @@
+Alexandra Sofia 
+AM 1115201000073
+
+--apla pipes gia epikoinwnia manager-inotifywait
+--named pipes gia epikoinwnia manager-worker
+
+--sigaction gia signal handling epeidi einai kalitero apo to signal
+--sigint agnoeitai apo olous plin tou manager pou analamvanei na tous skotwsei
+--sigchld agnoeitai alla xtin ousia xrhsimopoieitai apo tin entoli
+	waitpid(-1,NULL,WNOHANG|WUNTRACED) gia free worker
+
+--o manager an den vrei free worker opws parapanw ftiaxnei allon
+
+--elegkste to path tis inotifywait prin tin ektelesi 
+	einai twra /usr/bin/inotifywait
+	me which inotifywait vriskw to path sto trexon systima
+	
+
+
